@@ -87,7 +87,7 @@ header {
 
 #hero__img {
     background-image: url(./img/hero.jpg);
-    width: 60%;
+    width: 920px;
     height: 100%;
     display: flex;
     align-items: flex-end;
