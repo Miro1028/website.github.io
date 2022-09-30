@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#number {
+    width: 300px;
+    margin-left: 2%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+#header__surgalt {
+    margin-left: 50%;
+}
+
+#logo-txt {
+    font-size: 24px;
+    font-weight: bold;
+    width: 10%;
+}
+
+#socials {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 78%;
+    margin-right: 5%;
+}
+
+.hero {
+    width: 100%;
+    height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#hero__register {
+    background-color: #A7332F;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 50px;
+}
+
+#hero__img {
+    background-image: url(../img/hero.jpg);
+    width: 920px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+
+}
+
+#hero__CTA {
+    margin-bottom: 50px;
+    margin-left: -50px;
+}
+#texts>h1 {
+    padding: 20px;
+}
+#texts>h3 {
+    padding: 20px;
+}
+#texts>p {
+    width: 639px;
+    margin: auto auto;
+}
+#questions {
+    width: 90%;
+    text-align: end;
+    display: flex;
+    margin: 70px 0;
+    justify-content: space-around;
+    grid-template-columns: 70% 20%;
+}
+
+#questions>h3 {
+    margin-left: 10%;
+}
+#get-a-coach {
+    width: 189px;
+    height: 47px;
+    color: white;
+    margin-top: 15px;
+    border: 0;
+    background-color: #A7332F;
+}
+footer {
+    background-color: black;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#unbold {
+    font-weight: normal;
+}
+
+.footer>h3 {
+    padding: 15px;
+}
+
+.Footer-CTA {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
