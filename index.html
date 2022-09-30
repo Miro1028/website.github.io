@@ -59,20 +59,38 @@
         <div id="block" style="margin-bottom: 100px;"></div>
     </div>
     <section style="background-color: black; color: white;">
-        <h1 style="font-size: 2em; font-weight: bold; text-align: center; width: 100%;">Хөрөнгө оруулалтын нууцыг эзэмш
-        </h1>
-        <h3 style="font-weight: bold; text-align: center; color: #BCBCBC;">Манай бүтээгдэхүүнүүд</h3>
-        <h1 style="margin-left: 25%;">Power</h1>
-        <section style="display: grid; background-color: black; grid-template-columns: auto auto;">
-            <p style="width: 477px; margin: 30px auto;">Энэхүү номын зорилго нь таны бичих чадварыг хөгжүүлж, цаашлаад
-                шилдэг сэтгэгч
-                болоход тань өөрийн карьерын туршлага дээр үндэслэн зөвлөж, амжилтын үүд хаалгыг тань нээх билээ.
-                Сэтгэн бодох чадвараа хөгжүүлэх, амжилтаа ахиулахыг хүссэн хүн бүрт энэ ном нь нээлттэй бөгөөд маш олон
-                чухал чадваруудыг нэг номонд багтааж чадсанаараа онцлогтой.</p>
+        <Div style="padding-top: 5%; padding-bottom: 3%;">
+            <h1 style="font-size: 2em; font-weight: bold; text-align: center; width: 100%;">Хөрөнгө оруулалтын нууцыг
+                эзэмш
+            </h1>
+            <h3 style="font-weight: bold; text-align: center; color: #BCBCBC;">Манай бүтээгдэхүүнүүд</h3>
+        </Div>
+        <div style="display: flex;">
+            <h1 style="margin-left: 25%;" id="bookHeading"><span id="book__name" >Power</span>
+                <p id="book__description"
+                    style="width: 477px; margin-left: -40%; font-weight: normal; font-size: 1.rem;">Энэхүү номын зорилго
+                    нь таны
+                    бичих чадварыг хөгжүүлж, цаашлаад
+                    шилдэг сэтгэгч
+                    болоход тань өөрийн карьерын туршлага дээр үндэслэн зөвлөж, амжилтын үүд хаалгыг тань нээх билээ.
+                    Сэтгэн бодох чадвараа хөгжүүлэх, амжилтаа ахиулахыг хүссэн хүн бүрт энэ ном нь нээлттэй бөгөөд маш
+                    олон
+                    чухал чадваруудыг нэг номонд багтааж чадсанаараа онцлогтой.
+                </p>
+                <button
+                    style="margin-top: 5%; margin-left: -20%; border-radius: 10px; font-size: 16px; background-color: #A7332F; width: 243px; height: 48px; color: white; font-weight: bold;">Яг
+                    одоо захиалах</button>
+            </h1>
             <img src="./img/power.jpg">
+        </div>
+        <div style="display: flex; justify-content: space-between; width: 213px; margin: auto auto; padding: 5%;">
+            <div onclick="bookOne()" style="width: 35px; height: 35px; border-radius: 100%; border: 3px solid white; background-color: black;" id="book__one"></div>
+            <div onclick="bookTwo()" style="width: 35px; height: 35px; border-radius: 100%; border: 1px solid white; background-color: white;" id="book__two"></div>
+            <div onclick="bookThree()" style="width: 35px; height: 35px; border-radius: 100%; border: 1px solid white; background-color: white;" id="book__three"></div>
+        </div>
+        <section style="display: grid; background-color: black; grid-template-columns: auto auto;">
         </section>
-        <button style="background-color: #A7332F; padding: 30px; color: white; font-weight: bold;">Яг одоо
-            захиалах</button>
+
         <div>
             <div></div>
             <div></div>
@@ -80,10 +98,18 @@
             <div></div>
         </div>
     </section>
-    <section>
-        <img src="" alt="">
-        <h3></h3>
-        <p></p>
+    <section style="display: flex; margin-top: 10%; margin-left: 10%; margin-bottom: 10%;">
+        <img src="./img/course.jpg" style="width: 533px; height: 362px;" alt="">
+        <h3 style="text-align: center; font-size: 23px; font-weight: bold; margin: 3%;">Та аль сургалтанд хамрагдахаа
+            мэдэхгүй байна уу?<Br>
+            <p id="whichCourse__desc" style=" margin-top: 30px; text-align:left; font-weight: normal;">Суралцмаар
+                байгаагаа мэдэж байгаа ч хаанаас эхлэхээ мэдэхгүй байна уу? Яг одоо доор байрлах товч дээр
+                дарж өөрт тохирох сургалтын хөтөлбөртэй сургалтыг олоорой.</span>
+            </p>
+            <button
+                style=" margin-top: 30px;width: 182px; height: 64px; background-color: #A7332F; border-radius: 20px; border: 0; color: white; font-weight: bold; font-size: 20px;">Энд
+                дар</button>
+        </h3>
     </section>
     <section>
         <h1 style="text-align: center; font-size: 48px;">УНШ. ҮЗ. СОНС.</h1>
@@ -96,26 +122,41 @@
     </section>
     <section>
         <h1 style="text-align: center; font-size: 48px">ИДЭРБАТЫН ХҮЧИРХЭГ ХҮРЭЭЛЭЛ</h1>
-        <h3 style="text-align: center; color: #3E3E3E; font-weight: normal; padding-bottom: 30px;">Хүчирхэн хүрээлэлд орж хүчирхэг хүрээллийн хүчийг мэдэр</h3>
+        <h3 style="text-align: center; color: #3E3E3E; font-weight: normal; padding-bottom: 30px;">Хүчирхэн хүрээлэлд
+            орж хүчирхэг хүрээллийн хүчийг мэдэр</h3>
         <div class="community">
             <Div id="community__block">PLATO</Div>
             <Div id="community__block">LVLUP+</Div>
-        </div> 
+        </div>
     </section>
     <div style="background-color: black; color: white;">
         <section style="height: 100vh;">
             <h1 style="margin-left: 10%; font-size: 58px; font-weight: bold; padding-top: 5%;">FAQ</h1>
-            <Div id="questions"><h3 style="font-size: 28px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arhoncus neque?</h3><img src="./img/plus.svg" alt=""></Div>
-            <Div id="questions"><h3 style="font-size: 28px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arhoncus neque?</h3><img src="./img/plus.svg" alt=""></Div>
-            <Div id="questions"><h3 style="font-size: 28px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arhoncus neque?</h3><img src="./img/plus.svg" alt=""></Div>
-            <Div id="questions"><h3 style="font-size: 28px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arhoncus neque?</h3><img src="./img/plus.svg" alt=""></Div>
+            <Div id="questions">
+                <h3 style="font-size: 28px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arhoncus
+                    neque?</h3><img src="./img/plus.svg" alt="">
+            </Div>
+            <Div id="questions">
+                <h3 style="font-size: 28px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arhoncus
+                    neque?</h3><img src="./img/plus.svg" alt="">
+            </Div>
+            <Div id="questions">
+                <h3 style="font-size: 28px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arhoncus
+                    neque?</h3><img src="./img/plus.svg" alt="">
+            </Div>
+            <Div id="questions">
+                <h3 style="font-size: 28px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arhoncus
+                    neque?</h3><img src="./img/plus.svg" alt="">
+            </Div>
         </section>
         <div style="width: 100%; height: 3px; background-color: white;"></div>
         <div style="width: 100%; height: 30px;"></div>
         <section style="width: 100%; height: 251px; background-color: #14AECF; align-items: center;">
             <div class="Footer-CTA">
-                <h3 style="text-align: center; font-size: 25px; font-weight: bold;padding-top: 50px;">Мөрөөдлөөрөө амьдар!</h3>
-                <p style="text-align: center; font-size: 14px; font-style: italic; margin-top: 19px;">Хаанаас эхлэхээ мэдэхгүй байна уу?
+                <h3 style="text-align: center; font-size: 25px; font-weight: bold;padding-top: 50px;">Мөрөөдлөөрөө
+                    амьдар!</h3>
+                <p style="text-align: center; font-size: 14px; font-style: italic; margin-top: 19px;">Хаанаас эхлэхээ
+                    мэдэхгүй байна уу?
                     Доорх
                     товч дээр дар</p>
                 <div style="width: 100%; margin-top: 19px; display: flex; justify-content: center;"><button
@@ -146,6 +187,7 @@
             </div>
         </footer>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
